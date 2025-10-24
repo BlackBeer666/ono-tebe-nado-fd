@@ -1,1 +1,136 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+.header__menu {
+  justify-self: start;
+}
+.header__links-list {
+  display: flex;
+  gap: 33px;
+}
+.header__links-list-item {
+  text-transform: lowercase;
+  list-style: circle;
+}
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+.header__link {
+  font-size: 18px;
+  text-underline-offset: 3px;
+}
+.header__link_active {
+  text-decoration: none;
+}
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+.header__logo-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.header__address {
+  max-width: 240px;
+  justify-self: end;
+}
+.address {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+font-size: 18px;
+text-underline-offset: 4px;
+line-height: 24.3px;
+}
+
+.cover {
+position: relative;
+background-image: url("/images/cover.jpg");
+background-size: cover;
+background-position: center;
+padding: 165px 50px 0 50px;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1; 
+  background-color: rgba(0,0,0,0.6);
+}
+
+.cover__title {
+position: relative;
+z-index: 2;
+display: flex;
+flex-direction: column;
+color: #fff;
+ line-height: 1.15;
+}
+
+.aligned-text {
+display: block;
+font-weight: bold;
+font-size: 100px;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+}
+
+.aligned-text_left {
+  display: block;
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+   transform: translateX(15px);
+
+}
+.aligned-text_right {
+  text-align: right;
+  transform: translateX(30px);
+  
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.3em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 118px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.cover__description-text {
+font-size: 22px;
+line-height: 127%;
+text-transform: uppercase;
+word-spacing: 0.84em;
+font-weight: 500;
+
+}
+
+.bet-button {
+background-color: transparent;
+margin: 0;
+padding: 0;
+font-weight: 500;
+font-size: 22px;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+border: 1px solid #fff;
+padding: 12px 32px 11px 32px;
+} 

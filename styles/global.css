@@ -26,10 +26,13 @@ blockquote {
 }
 
 a {
-  color: inherit;
+    color: inherit;
+  
 }
 
+
 img {
+
   width: 100%;
 }
 
