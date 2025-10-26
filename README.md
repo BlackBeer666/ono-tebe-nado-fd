@@ -1,1 +1,1 @@
-[https://github.com/BlackBeer666/ono-tebe-nado-fd](https://github.com/BlackBeer666/ono-tebe-nado-fd)
+https://github.com/BlackBeer666/ono-tebe-nado-fd
