@@ -134,9 +134,11 @@
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
+  
 }
 .card-link {
    text-decoration: none;
+   
 }
 .card {
   position: relative;
@@ -158,12 +160,16 @@
   text-decoration-style: solid;
   text-underline-offset: 3px;
   text-transform: uppercase;
+  position: relative;
+  z-index: 2;
 
 }
 .card__text {
   margin: 0 40px 48px 40px;
   font-size: 20px;
   line-height:120%;
+  position: relative;
+  z-index: 2;
 }
 
 .card_type_film {
@@ -269,19 +275,11 @@
   width: 48px;
   height: 48px;
 }
-.cover::before,
-.card::before {
+.overlay::before {
   content: "";
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
   pointer-events: none;
-}
-.cover__title,
-.cover__description,
-.card__title,
-.card__text {
-  position: relative;
-  z-index: 2;
 }
