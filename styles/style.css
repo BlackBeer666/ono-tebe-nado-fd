@@ -150,7 +150,6 @@
 
 }
 .card__title {
-  position: relative;
   margin: 48px 40px 0 40px;
   font-weight: 700;
   font-size: 22px;
@@ -162,8 +161,6 @@
 
 }
 .card__text {
-  position: relative;
-  z-index:1;
   margin: 0 40px 48px 40px;
   font-size: 20px;
   line-height:120%;
