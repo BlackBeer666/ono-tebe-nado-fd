@@ -1,1 +1,1 @@
-[<a href="https://github.com/BlackBeer666/ono-tebe-nado-fd">https://github.com/BlackBeer666/ono-tebe-nado-fd>](https://github.com/BlackBeer666/ono-tebe-nado-fd)
+[Ono-tebe-nado на GitHub](https://github.com/BlackBeer666/ono-tebe-nado-fd)
