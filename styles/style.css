@@ -280,7 +280,7 @@ text-underline-offset: 4px;
   justify-content: flex-end;
   gap: 48px;
 }
-.footer__social-list-item { 
+.footer__social-list-item {
   list-style: none;
 }
 .footer__social-icon {
